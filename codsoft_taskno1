@@ -8,7 +8,7 @@ int main() {
     int guess;
     int attempts = 0;
 
-    cout << "===== Number Guessing Game =====" << endl;
+    cout << "Number Guessing Game" << endl;
     cout << "Guess a number between 1 and 100." << endl;
 
     do {
@@ -17,10 +17,10 @@ int main() {
         attempts++;
 
         if (guess > secretNumber) {
-            cout << "Too high! Try again." << endl;
+            cout << "Your guess is too high. Try a smaller number." << endl;
         }
         else if (guess < secretNumber) {
-            cout << "Too low! Try again." << endl;
+            cout << "Your guess is too low. Try a larger number." << endl;
         }
         else {
             cout << "Congratulations! You guessed the correct number." << endl;
