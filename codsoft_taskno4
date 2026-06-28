@@ -25,7 +25,7 @@ void viewTasks() {
         return;
     }
 
-    cout << "\n------ TO-DO LIST ------\n";
+    cout << "\nTO-DO LIST\n";
     for (int i = 0; i < tasks.size(); i++) {
         cout << i + 1 << ". " << tasks[i].name << " [";
         if (tasks[i].completed)
